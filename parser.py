@@ -22,6 +22,15 @@ for post in feed.entries:
 first = urls[0]
 print(first)
 
+print "Content-type:text/html\r\n\r\n"
+print "<html>"
+print "<head>"
+print "<title>Hello - Second CGI Program</title>"
+print "</head>"
+print "<body>"
+print "<h2>Hello %s %s</h2>" % (first)
+print "</body>"
+print "</html>"
 
 #mp3file = urllib3.urlopen(first)
 #r = http.request('GET', first)

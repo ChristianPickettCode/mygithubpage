@@ -4,7 +4,7 @@ $(document).ready(function() {
 
 	function postData(input) {
 	    $.ajax({
-	        type: "POST",
+	        //type: "POST",
 	        url: "/parser.py",
 	        data: { param: input },
 	        success: callbackFunc
