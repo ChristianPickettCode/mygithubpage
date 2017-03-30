@@ -17,6 +17,7 @@ $(document).ready(function() {
 	    console.log("success");
 	}
 
+	console.log("Start");
 	postData()
 
 
