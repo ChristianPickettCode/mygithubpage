@@ -9,7 +9,7 @@ feed = feedparser.parse(URL)
 urls = []
 
 for post in feed.entries:
-	#print(str(post.title)) 
+	print(str(post.title)) 
 	#print(str(post))
 	#print(str(post.description))
 	#print(str(post.media_content)) #Media
@@ -33,9 +33,6 @@ print(first)
 #play(song)
 
 #urllib.request.urlretrieve(first, './test.mp3')
-import vlc
 
-p = vlc.MediaPlayer(first)
-p.play()
 
 
